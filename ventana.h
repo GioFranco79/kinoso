@@ -33,6 +33,8 @@ private slots:
 
     void on_actionMigrar_base_a_texto_triggered();
 
+    void on_actionComparar_sorteo_triggered();
+
 private:
     Ui::ventana *ui;
     ClaseDataBase archivo;

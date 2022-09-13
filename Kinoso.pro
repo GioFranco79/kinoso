@@ -26,6 +26,7 @@ CONFIG += c++11
 
 SOURCES += \
     combi.cpp \
+    compara.cpp \
     ingresodialog.cpp \
         main.cpp \
         ventana.cpp \
@@ -34,6 +35,7 @@ SOURCES += \
 
 HEADERS += \
     combi.h \
+    compara.h \
     ingresodialog.h \
         ventana.h \
     clasedatabase.h \
@@ -41,6 +43,7 @@ HEADERS += \
 
 FORMS += \
         combi.ui \
+        compara.ui \
         ingresodialog.ui \
         ventana.ui \
         vistazo.ui

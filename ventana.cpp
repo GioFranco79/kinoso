@@ -6,6 +6,7 @@
 #include "clasedatabase.h"
 #include "ingresodialog.h"
 #include "vistazo.h"
+#include "compara.h"
 #include "combi.h"
 #include "ui_ventana.h"
 
@@ -419,3 +420,10 @@ void ventana::on_actionMigrar_base_a_texto_triggered()
        QMessageBox::warning( this, tr("Exito"), mensaje);
     }
 }
+
+void ventana::on_actionComparar_sorteo_triggered()
+{
+    Compara comparar(this);
+    comparar.exec();
+}
+
